@@ -1,0 +1,15 @@
+# Tweaked Configuration
+tweaks:
+  # Allows you to tweak things about sleep.
+  sleep:
+    # Allows you to enable or disable this tweak
+    enable: false
+    # Set this to false if the "sleeping-players" value below is not a percent
+    is-percentage: true
+    # The amount of players that need to be sleeping for the game to skip to day (or the percent if "is-percentage" is set to true)
+    sleeping-players: 100
+    # Set this to false to block players from sleeping
+    allow-sleeping: true
+    # If this is on, values put into "sleeping-players" will be checked before using. If on, 200% in sleeping-players will be counted as 100% by the plugin, etc.
+    safe-mode: true
+  

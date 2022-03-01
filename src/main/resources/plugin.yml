@@ -1,0 +1,6 @@
+name: Tweaked
+version: '${project.version}'
+main: io.github.red050911.plugin.tweaked.Tweaked
+api-version: 1.18
+authors: [ Red050911 ]
+description: Allows server admins to "tweak" things in the vanilla game.
